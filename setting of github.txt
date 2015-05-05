@@ -1,0 +1,55 @@
+aeoluseros
+Hyde015815
+
+git init
+git config --global user.name "aeoluseros"
+git config --global user.email "yklouk@gmail.com"
+git config --list
+	
+
+git remote add <name> https://github.com/aeoluseros/Py4DataAnalysis.git   #origin is just a name
+git clone https://github.com/aeoluseros/Py4DataAnalysis.git   #this one is important
+
+git add --all
+git commit -m "Commit message"
+git push <name>
+
+#checkout a repository
+git clone /path/to/repository   #create a working copy of a local repository by running the command
+git clone username@host:/path/to/repository    #when using a remote server, your command will be
+
+#switch to branch:
+git checkout -b feature_x
+#switch back to master
+git checkout master
+#and delete the branch again
+git branch -d feature_x
+#a branch is not available to others unless you push the branch to your remote repository
+git push origin <branch>
+
+
+#to update your local repository to the newest commit, execute 
+git pull
+#to merge another branch into your active branch (e.g. master), use
+git merge <branch>
+#before merging changes, you can also preview them by using
+git diff <source_branch> <target_branch>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
